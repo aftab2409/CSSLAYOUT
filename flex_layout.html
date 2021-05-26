@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+	
+		<title>flex_layout</title>
+		<style>
+			header{
+				display:flex;
+				background-color:gold;
+				height:200px;
+				border:2px solid;
+				font-size:50px;
+			}
+			header div.logo{
+				flex:1;
+			}
+			header div.header-menu{
+				flex:1;
+				
+			}
+			main{
+				height:250px;
+				background-color:red;
+				border:2px solid;
+				height:250px;
+				text-align:center;
+				font-size:50px;
+			}
+			section{
+				display:flex;
+				height:700px;
+				text-align:center;
+			
+			}
+			section div.item1{
+				flex:1;
+				background-color:orange;
+				font-size:50px;
+		
+			}
+			section div.item2{
+				flex:2;
+				background-color:green;
+				font-size:50px;
+			}
+			
+			section div.item3{
+				flex:1;
+				background-color:orange;
+				font-size:50px;
+			}
+			footer{
+				height:250px;
+				display:flex;
+				text-align:center;
+				background-color:grey;
+				
+				
+			}
+			footer div{
+				flex:1;
+				border:2px solid;
+				font-size:50px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="logo">logo</div>
+			<div class="header-menu">headermenu</div>
+		</header>
+		
+		<main>
+			<div>slidebar</div>
+		</main>
+		
+		<section>
+		
+			<div class="item1">left content</div>
+			<div class="item2">main content</div>
+			<div class="item3">right content</div>
+	
+		</section>
+		
+		<footer> 
+			<div>logo</div>
+			<div>quick link</div>
+			<div>contact us</div>
+			<div>about us</div>
+			
+		</footer>
+		
+	</body>
+
+
+
+
+
+</html>
