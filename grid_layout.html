@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+	
+		<title>grid_layout</title>
+		<style>
+			header{
+				display:grid;
+				height:250px;
+				border:2px solid;
+				background-color:red;
+				grid-template-columns:50% 50%;
+				text-align:center;
+				font-size:50px
+			}
+			main{
+				height:150px;
+				text-align:center;
+				font-size:50px;
+				background-color:gold;
+			}
+			section{
+				display:grid;
+				height:750px;
+				border:2px solid;
+				background-color:grey;
+				grid-template-columns:25% 50% 25%;
+				text-align:center;
+				font-size:50px
+			}
+			section div.item1{
+				border:2px solid;
+			}
+			section div.item2{
+				border:2px solid;
+			}
+			section div.item3{
+				border:2px solid;
+			}
+			
+			footer{
+				display:grid;
+				height:300px;
+				border:2px solid;
+				background-color:yellow;
+				grid-template-columns:25% 25% 25% 25%;
+				text-align:center;
+				font-size:50px
+			}
+			
+			footer div{
+				border:2px solid;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="logo">logo</div>
+			<div class="header-menu">headermenu</div>
+		</header>
+		
+		<main>
+			<div>slidebar</div>
+		</main>
+		
+		<section>
+		
+			<div class="item1">left content</div>
+			<div class="item2">main content</div>
+			<div class="item3">right content</div>
+	
+		</section>
+		
+		<footer> 
+			<div>logo</div>
+			<div>quick link</div>
+			<div>contact us</div>
+			<div>about us</div>
+			
+		</footer>
+		
+	</body>
+
+
+
+
+
+</html>
